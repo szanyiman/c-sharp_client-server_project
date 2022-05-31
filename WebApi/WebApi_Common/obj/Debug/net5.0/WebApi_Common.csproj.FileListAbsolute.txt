@@ -1,0 +1,12 @@
+C:\project\WebApi\WebApi_Common\bin\Debug\net5.0\WebApi_Common.deps.json
+C:\project\WebApi\WebApi_Common\bin\Debug\net5.0\WebApi_Common.dll
+C:\project\WebApi\WebApi_Common\bin\Debug\net5.0\WebApi_Common.pdb
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\WebApi_Common.csproj.AssemblyReference.cache
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\WebApi_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\WebApi_Common.AssemblyInfoInputs.cache
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\WebApi_Common.AssemblyInfo.cs
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\WebApi_Common.csproj.CoreCompileInputs.cache
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\WebApi_Common.dll
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\refint\WebApi_Common.dll
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\WebApi_Common.pdb
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\ref\WebApi_Common.dll

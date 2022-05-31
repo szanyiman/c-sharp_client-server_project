@@ -1,0 +1,12 @@
+C:\project\WebApi\WebApi_Common\bin\Debug\net5.0\DoctorApi_Common.deps.json
+C:\project\WebApi\WebApi_Common\bin\Debug\net5.0\DoctorApi_Common.dll
+C:\project\WebApi\WebApi_Common\bin\Debug\net5.0\DoctorApi_Common.pdb
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.csproj.AssemblyReference.cache
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.AssemblyInfoInputs.cache
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.AssemblyInfo.cs
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.csproj.CoreCompileInputs.cache
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.dll
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\refint\DoctorApi_Common.dll
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.pdb
+C:\project\WebApi\WebApi_Common\obj\Debug\net5.0\ref\DoctorApi_Common.dll
