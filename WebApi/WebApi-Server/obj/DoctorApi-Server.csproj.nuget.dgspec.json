@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {}
+    "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {}
   },
   "projects": {
-    "C:\\project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {
+    "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
+        "projectUniqueName": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
         "projectName": "DoctorApi-Server",
-        "projectPath": "C:\\project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
+        "projectPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
         "packagesPath": "C:\\Users\\Manó\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\WebApi\\WebApi-Server\\obj\\",
+        "outputPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
-                "projectPath": "C:\\project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj"
+              "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
+                "projectPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
+    "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
+        "projectUniqueName": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
         "projectName": "DoctorApi_Common",
-        "projectPath": "C:\\project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
+        "projectPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
         "packagesPath": "C:\\Users\\Manó\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\WebApi\\WebApi_Common\\obj\\",
+        "outputPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
+      "projectUniqueName": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
       "projectName": "DoctorApi_Common",
-      "projectPath": "C:\\project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
+      "projectPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
       "packagesPath": "C:\\Users\\Manó\\.nuget\\packages\\",
-      "outputPath": "C:\\project\\WebApi\\WebApi_Common\\obj\\",
+      "outputPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

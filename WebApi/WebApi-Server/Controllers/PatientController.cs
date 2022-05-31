@@ -7,7 +7,7 @@ using DoctorApi_Server.Repositories;
 namespace DoctorApi_Server.Controllers
 {
     [ApiController]
-    [Route("api/patients")]
+    [Route("api/patient")]
     public class PatientController : Controller
     {
         [HttpGet]

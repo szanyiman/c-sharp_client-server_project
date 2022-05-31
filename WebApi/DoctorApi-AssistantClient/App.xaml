@@ -1,0 +1,9 @@
+﻿<Application x:Class="DoctorApi_AssistantClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DoctorApi_AssistantClient"
+             StartupUri="AddPatient.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4EAkRe2itHkRnWefXOLY9SvmuOyCq8VbwmVDv/J0U0BPyMgJbmSagk6I3KxO7mXIB/Ez8qqssXSBXTcWAC9lWA==",
+  "success": true,
+  "projectFilePath": "C:\\git\\c-sharp_client-server_project\\WebApi\\DoctorApi-AssistantClient\\DoctorApi-AssistantClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Manó\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
