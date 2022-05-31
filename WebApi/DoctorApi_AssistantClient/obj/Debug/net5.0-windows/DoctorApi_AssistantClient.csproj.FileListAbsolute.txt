@@ -1,5 +1,0 @@
-C:\git\c-sharp_client-server_project\WebApi\DoctorApi_AssistantClient\obj\Debug\net5.0-windows\DoctorApi_AssistantClient.csproj.AssemblyReference.cache
-C:\git\c-sharp_client-server_project\WebApi\DoctorApi_AssistantClient\obj\Debug\net5.0-windows\AddPatient.g.cs
-C:\git\c-sharp_client-server_project\WebApi\DoctorApi_AssistantClient\obj\Debug\net5.0-windows\App.g.cs
-C:\git\c-sharp_client-server_project\WebApi\DoctorApi_AssistantClient\obj\Debug\net5.0-windows\DoctorApi_AssistantClient_MarkupCompile.cache
-C:\git\c-sharp_client-server_project\WebApi\DoctorApi_AssistantClient\obj\Debug\net5.0-windows\DoctorApi_AssistantClient_MarkupCompile.lref
