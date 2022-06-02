@@ -93,7 +93,7 @@ namespace DoctorApi_AssistantClient {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoctorApi-AssistantClient;component/addpatient.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoctorApi-AssistantClient;V1.0.0.0;component/addpatient.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddPatient.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
