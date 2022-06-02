@@ -22,3 +22,15 @@ C:\git\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\Docto
 C:\git\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\refint\DoctorApi_Common.dll
 C:\git\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.pdb
 C:\git\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\ref\DoctorApi_Common.dll
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\bin\Debug\net5.0\DoctorApi_Common.deps.json
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\bin\Debug\net5.0\DoctorApi_Common.dll
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\bin\Debug\net5.0\DoctorApi_Common.pdb
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.csproj.AssemblyReference.cache
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.AssemblyInfoInputs.cache
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.AssemblyInfo.cs
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.csproj.CoreCompileInputs.cache
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.dll
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\refint\DoctorApi_Common.dll
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\DoctorApi_Common.pdb
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi_Common\obj\Debug\net5.0\ref\DoctorApi_Common.dll

@@ -19,5 +19,6 @@ namespace DoctorApi_Common.Models
         {
             return $"Név: {Name} - Lakcím: {Address} - TAJ szám: {SocialSecurityNumber} - Panasz: {Complaint} - Diagnózis: {Diagnosis}";
         }
+
     }
 }
