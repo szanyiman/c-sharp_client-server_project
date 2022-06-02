@@ -1,0 +1,26 @@
+﻿<Window x:Class="DoctorApi_DoctorClient.DoctorView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoctorApi_DoctorClient"
+        mc:Ignorable="d"
+        Title="DoctorView" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Content="Betegek: " Margin="5"></Label>
+            <ListBox x:Name="PatientsBox" Grid.Row="1" Margin="15" SelectionMode="Single" SelectionChanged="PatientBox_Selected"></ListBox>
+        <Button Grid.Row="2" Content="Betegek Betöltése" Width="250" HorizontalAlignment="Center" Margin="15,0,15,15" Click="LoadData_Click"></Button>
+            
+        
+    </Grid>
+</Window>

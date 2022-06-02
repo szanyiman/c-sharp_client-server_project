@@ -22,6 +22,7 @@ namespace DoctorApi_AssistantClient
     /// </summary>
     public partial class AddPatient : Window
     {
+        public static bool hasSavePatient = false;
         private readonly Patient _patient;
         public AddPatient(Patient patient)
         {
@@ -46,10 +47,13 @@ namespace DoctorApi_AssistantClient
                 AddressTextBox.Text = null;
                 SocialSecNumTextBox.Text = null;
                 ComplaintTextBox.Text = null;
+                hasSavePatient = true;
+                
             }
+
         }
 
-        private bool ValidatePatient()
+        public bool ValidatePatient()
         {
             var regexItem = new Regex(@"^[a-zA-ZíéáüűúóöőÍÉÁÜŰÚÖŐÓ]+[\s][a-zA-ZíéáüűúóöőÍÉÁÜŰÚÖŐÓ]+[\s]?[a-zA-ZíéáüűúóöőÍÉÁÜŰÚÖŐÓ]+$");
             Regex regex = new Regex(@"^[0-9]{3}[\s][0-9]{3}[\s][0-9]{3}$");

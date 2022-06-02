@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DoctorApi_AssistantClient.DataProviders
 {
-    class PatientDataProvider
+    public class PatientDataProvider
     {
         private const string _url = "http://localhost:5000/api/patient";
 
@@ -44,5 +44,32 @@ namespace DoctorApi_AssistantClient.DataProviders
                 }
             }
         }
+
+        public static void UpdatePatient(Patient person)
+        {
+            using (var client = new HttpClient())
+            {
+                var rawData = JsonConvert.SerializeObject(person);
+                var content = new StringContent(rawData, Encoding.UTF8, "application/json");
+
+                var response = client.PutAsync(_url, content).Result;
+                if (!response.IsSuccessStatusCode)
+                {
+                    throw new InvalidOperationException(response.StatusCode.ToString());
+                }
+            }
+        }
+        public static void DeletePatient(long id)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = client.DeleteAsync($"{_url}/{id}").Result;
+                if (!response.IsSuccessStatusCode)
+                {
+                    throw new InvalidOperationException(response.StatusCode.ToString());
+                }
+            }
+        }
+
     }
 }

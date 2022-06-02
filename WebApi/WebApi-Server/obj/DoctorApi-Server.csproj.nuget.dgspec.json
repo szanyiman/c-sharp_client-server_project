@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {}
+    "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {}
   },
   "projects": {
-    "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {
+    "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
+        "projectUniqueName": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
         "projectName": "DoctorApi-Server",
-        "projectPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
-        "packagesPath": "C:\\Users\\Manó\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\obj\\",
+        "projectPath": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
+        "packagesPath": "C:\\Users\\arvas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Manó\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
-                "projectPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj"
+              "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
+                "projectPath": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj"
               }
             }
           }
@@ -69,20 +69,20 @@
         }
       }
     },
-    "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
+    "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
+        "projectUniqueName": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
         "projectName": "DoctorApi_Common",
-        "projectPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
-        "packagesPath": "C:\\Users\\Manó\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\obj\\",
+        "projectPath": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
+        "packagesPath": "C:\\Users\\arvas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Manó\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

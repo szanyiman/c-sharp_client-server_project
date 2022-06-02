@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>DoctorApi_DoctorClient</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DoctorApi-AssistantClient\DoctorApi-AssistantClient.csproj" />
+    <ProjectReference Include="..\WebApi_Common\DoctorApi_Common.csproj" />
+  </ItemGroup>
+
+</Project>

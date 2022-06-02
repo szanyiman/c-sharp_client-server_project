@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bAC5J1FSu+VPDZKsKU0qsbI1E+gw6IEbM2hoFx+LOSRYXwpwKLUX7qyT8dal2qPFtgk4h8vGVuGM1p0LZf5tXw==",
+  "dgSpecHash": "dN8pYNBpwH87x3CoyG0176Plv5hMHL7SsUqQzPWNVOKsZaqfK36ETqif0UOpIYgLn0TgoqHS/jCf44zPExBLRw==",
   "success": true,
-  "projectFilePath": "C:\\git\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
+  "projectFilePath": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi-Server\\DoctorApi-Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
