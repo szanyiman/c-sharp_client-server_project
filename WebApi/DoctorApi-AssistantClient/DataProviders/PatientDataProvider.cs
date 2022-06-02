@@ -1,23 +1,22 @@
-﻿using DoctorApi_Common.Models;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DoctorApi_AssistantClient.DataProviders
+﻿namespace DoctorApi_AssistantClient.DataProviders
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Net.Http;
+    using System.Text;
+    using DoctorApiCommon.Models;
+    using Newtonsoft.Json;
+
+#pragma warning disable LRT001 // There is only one restricted namespace
     public class PatientDataProvider
     {
-        private const string _url = "http://localhost:5000/api/patient";
+        private const string Url = "http://localhost:5000/api/patient";
 
         public static IEnumerable<Patient> GetPatient()
         {
             using (var client = new HttpClient())
             {
-                var response = client.GetAsync(_url).Result;
+                var response = client.GetAsync(Url).Result;
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -35,9 +34,9 @@ namespace DoctorApi_AssistantClient.DataProviders
             using (var client = new HttpClient())
             {
                 var rawData = JsonConvert.SerializeObject(patient);
-                var content = new StringContent(rawData,Encoding.UTF8,"application/json");
+                var content = new StringContent(rawData, Encoding.UTF8, "application/json");
 
-                var response = client.PostAsync(_url, content).Result;
+                var response = client.PostAsync(Url, content).Result;
                 if (!response.IsSuccessStatusCode)
                 {
                     throw new InvalidOperationException(response.StatusCode.ToString());
@@ -52,18 +51,19 @@ namespace DoctorApi_AssistantClient.DataProviders
                 var rawData = JsonConvert.SerializeObject(person);
                 var content = new StringContent(rawData, Encoding.UTF8, "application/json");
 
-                var response = client.PutAsync(_url, content).Result;
+                var response = client.PutAsync(Url, content).Result;
                 if (!response.IsSuccessStatusCode)
                 {
                     throw new InvalidOperationException(response.StatusCode.ToString());
                 }
             }
         }
+
         public static void DeletePatient(long id)
         {
             using (var client = new HttpClient())
             {
-                var response = client.DeleteAsync($"{_url}/{id}").Result;
+                var response = client.DeleteAsync($"{Url}/{id}").Result;
                 if (!response.IsSuccessStatusCode)
                 {
                     throw new InvalidOperationException(response.StatusCode.ToString());
@@ -72,4 +72,5 @@ namespace DoctorApi_AssistantClient.DataProviders
         }
 
     }
+#pragma warning restore LRT001 // There is only one restricted namespace
 }

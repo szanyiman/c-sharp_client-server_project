@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "imB1W8CQS13jinKTwkmb8NObbBAJBm+oaThnwlC/YxtkBREe4TQq1slM7H9UoHBEsHTT1CjUdabDg4bvTpPX/w==",
+  "dgSpecHash": "qLTFv7FfSqznHvrhPuLzSbYqDmu9zAW4rc0rk8pFFNHuYdG84APpMkNniuG+vpHzB3ngvXUJyC1R7Lx/uVW54g==",
   "success": true,
   "projectFilePath": "C:\\Users\\arvas\\OneDrive\\Dokumentumok\\c-sharp_client-server_project\\WebApi\\WebApi_Common\\DoctorApi_Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\arvas\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\2.9.10\\microsoft.codeanalysis.fxcopanalyzers.2.9.10.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\2.9.10\\microsoft.codeanalysis.versioncheckanalyzer.2.9.10.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\microsoft.codequality.analyzers\\2.9.10\\microsoft.codequality.analyzers.2.9.10.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\microsoft.netcore.analyzers\\2.9.10\\microsoft.netcore.analyzers.2.9.10.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\microsoft.netframework.analyzers\\2.9.10\\microsoft.netframework.analyzers.2.9.10.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\microsoft.visualstudio.threading.analyzers\\16.3.52\\microsoft.visualstudio.threading.analyzers.16.3.52.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\ni.csharp.analyzers\\2.0.4\\ni.csharp.analyzers.2.0.4.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\roslynator.analyzers\\2.1.0\\roslynator.analyzers.2.1.0.nupkg.sha512",
+    "C:\\Users\\arvas\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }

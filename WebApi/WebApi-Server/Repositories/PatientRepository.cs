@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using DoctorApi_Common.Models;
+using DoctorApiCommon.Models;
 
 namespace DoctorApi_Server.Repositories
 {

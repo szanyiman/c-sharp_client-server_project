@@ -1,11 +1,11 @@
-using DoctorApi_AssistantClient;
-using DoctorApi_Common.Models;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Threading;
-
-namespace DoctorApi_AssistantClient_Tests
+namespace DoctorApiAssistantClientTest
 {
+    using System;
+    using System.Threading;
+    using DoctorApi_AssistantClient;
+    using DoctorApiCommon.Models;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class AddPatientUnitTests
     {
