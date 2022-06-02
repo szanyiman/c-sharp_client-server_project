@@ -74,3 +74,4 @@ C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\obj\Debug\net5.0\DoctorApi-Server.pdb
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\obj\Debug\net5.0\DoctorApi-Server.genruntimeconfig.cache
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\obj\Debug\net5.0\ref\DoctorApi-Server.dll
+C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\Patients.json

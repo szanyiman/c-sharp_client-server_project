@@ -61,7 +61,7 @@ namespace DoctorApi_DoctorClient {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoctorApi-DoctorClient;V1.0.0.0;component/doctorview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoctorApi-DoctorClient;component/doctorview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DoctorView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

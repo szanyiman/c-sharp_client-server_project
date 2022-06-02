@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
-using DoctorApi_Common.Models;
+using DoctorApiCommon.Models;
 using DoctorApi_Server.Repositories;
 
 namespace DoctorApi_Server.Controllers

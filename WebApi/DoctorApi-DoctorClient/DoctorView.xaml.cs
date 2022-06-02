@@ -1,5 +1,5 @@
 ﻿using DoctorApi_AssistantClient.DataProviders;
-using DoctorApi_Common.Models;
+using DoctorApiCommon.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

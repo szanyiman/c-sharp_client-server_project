@@ -1,95 +1,88 @@
-﻿using DoctorApi_AssistantClient.DataProviders;
-using DoctorApi_Common.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-
-namespace DoctorApi_AssistantClient
+﻿namespace DoctorApi_AssistantClient
 {
+    using System.Text.RegularExpressions;
+    using System.Windows;
+    using DoctorApi_AssistantClient.DataProviders;
+    using DoctorApiCommon.Models;
+
     /// <summary>
     /// Interaction logic for AddPatient.xaml
     /// </summary>
+#pragma warning disable LRT001 // There is only one restricted namespace
     public partial class AddPatient : Window
     {
-        public static bool hasSavePatient = false;
-        private readonly Patient _patient;
+        private readonly Patient patient;
+
         public AddPatient(Patient patient)
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
 
         public AddPatient()
         {
-            _patient = new Patient();
+            this.patient = new Patient();
         }
 
         private void CreateButton_Click(object sender, RoutedEventArgs e)
         {
-            if (ValidatePatient())
+            if (this.ValidatePatient())
             {
-                _patient.Name = NameTextBox.Text;
-                _patient.Address = AddressTextBox.Text;
-                _patient.SocialSecurityNumber = SocialSecNumTextBox.Text;
-                _patient.Complaint = ComplaintTextBox.Text;
-                PatientDataProvider.CreatePatient(_patient);
-                NameTextBox.Text = null;
-                AddressTextBox.Text = null;
-                SocialSecNumTextBox.Text = null;
-                ComplaintTextBox.Text = null;
-                hasSavePatient = true;
-                
+                this.patient.Name = this.NameTextBox.Text;
+                this.patient.Address = this.AddressTextBox.Text;
+                this.patient.SocialSecurityNumber = this.SocialSecNumTextBox.Text;
+                this.patient.Complaint = this.ComplaintTextBox.Text;
+                PatientDataProvider.CreatePatient(this.patient);
+                this.NameTextBox.Text = null;
+                this.AddressTextBox.Text = null;
+                this.SocialSecNumTextBox.Text = null;
+                this.ComplaintTextBox.Text = null;
             }
-
         }
 
         public bool ValidatePatient()
         {
             var regexItem = new Regex(@"^[a-zA-ZíéáüűúóöőÍÉÁÜŰÚÖŐÓ]+[\s][a-zA-ZíéáüűúóöőÍÉÁÜŰÚÖŐÓ]+[\s]?[a-zA-ZíéáüűúóöőÍÉÁÜŰÚÖŐÓ]+$");
             Regex regex = new Regex(@"^[0-9]{3}[\s][0-9]{3}[\s][0-9]{3}$");
-            Match match = regex.Match(SocialSecNumTextBox.Text);
+            Match match = regex.Match(this.SocialSecNumTextBox.Text);
 
-            if (string.IsNullOrEmpty(NameTextBox.Text) || string.IsNullOrWhiteSpace(NameTextBox.Text))
+            if (string.IsNullOrEmpty(this.NameTextBox.Text) || string.IsNullOrWhiteSpace(this.NameTextBox.Text))
             {
                 MessageBox.Show("Kérem adja meg a beteg nevét!");
                 return false;
             }
-            if (!regexItem.IsMatch(NameTextBox.Text))
+
+            if (!regexItem.IsMatch(this.NameTextBox.Text))
             {
                 MessageBox.Show("Nem adott meg helyes nevet!");
                 return false;
             }
-            if (string.IsNullOrEmpty(AddressTextBox.Text) || string.IsNullOrWhiteSpace(AddressTextBox.Text))
+
+            if (string.IsNullOrEmpty(this.AddressTextBox.Text) || string.IsNullOrWhiteSpace(this.AddressTextBox.Text))
             {
                 MessageBox.Show("Kérem adja meg a beteg lakcímét!");
                 return false;
             }
-            if (string.IsNullOrEmpty(SocialSecNumTextBox.Text) || string.IsNullOrWhiteSpace(SocialSecNumTextBox.Text))
+
+            if (string.IsNullOrEmpty(this.SocialSecNumTextBox.Text) || string.IsNullOrWhiteSpace(this.SocialSecNumTextBox.Text))
             {
                 MessageBox.Show("Kérem adja meg a beteg TAJ számát!");
                 return false;
             }
+
             if (!match.Success)
             {
                 MessageBox.Show("A TAJ szám nem megfelelő formátumban van írva!");
                 return false;
             }
-            if (string.IsNullOrEmpty(ComplaintTextBox.Text) || string.IsNullOrWhiteSpace(ComplaintTextBox.Text))
+
+            if (string.IsNullOrEmpty(this.ComplaintTextBox.Text) || string.IsNullOrWhiteSpace(this.ComplaintTextBox.Text))
             {
                 MessageBox.Show("Meg kell adni a beteg panaszát röviden.");
                 return false;
             }
+
             return true;
         }
     }
+#pragma warning restore LRT001 // There is only one restricted namespace
 }

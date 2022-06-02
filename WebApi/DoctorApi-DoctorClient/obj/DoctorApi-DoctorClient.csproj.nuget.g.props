@@ -13,4 +13,15 @@
     <SourceRoot Include="C:\Users\arvas\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">C:\Users\arvas\.nuget\packages\stylecop.analyzers\1.1.118</PkgStyleCop_Analyzers>
+    <PkgRoslynator_Analyzers Condition=" '$(PkgRoslynator_Analyzers)' == '' ">C:\Users\arvas\.nuget\packages\roslynator.analyzers\2.1.0</PkgRoslynator_Analyzers>
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\arvas\.nuget\packages\microsoft.visualstudio.threading.analyzers\16.3.52</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\arvas\.nuget\packages\microsoft.netframework.analyzers\2.9.10</PkgMicrosoft_NetFramework_Analyzers>
+    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\arvas\.nuget\packages\microsoft.netcore.analyzers\2.9.10</PkgMicrosoft_NetCore_Analyzers>
+    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">C:\Users\arvas\.nuget\packages\microsoft.codequality.analyzers\2.9.10</PkgMicrosoft_CodeQuality_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer Condition=" '$(PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer)' == '' ">C:\Users\arvas\.nuget\packages\microsoft.codeanalysis.versioncheckanalyzer\2.9.10</PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer>
+    <PkgMicrosoft_CodeAnalysis_FxCopAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_FxCopAnalyzers)' == '' ">C:\Users\arvas\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\2.9.10</PkgMicrosoft_CodeAnalysis_FxCopAnalyzers>
+    <PkgNI_CSharp_Analyzers Condition=" '$(PkgNI_CSharp_Analyzers)' == '' ">C:\Users\arvas\.nuget\packages\ni.csharp.analyzers\2.0.4</PkgNI_CSharp_Analyzers>
+  </PropertyGroup>
 </Project>
