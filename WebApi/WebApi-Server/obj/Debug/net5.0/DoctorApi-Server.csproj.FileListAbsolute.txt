@@ -51,7 +51,6 @@ C:\git\c-sharp_client-server_project\WebApi\WebApi-Server\obj\Debug\net5.0\ref\D
 C:\git\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\Patients.json
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\appsettings.json
-C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\Patients.json
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\DoctorApi-Server.exe
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\DoctorApi-Server.deps.json
 C:\Users\arvas\OneDrive\Dokumentumok\c-sharp_client-server_project\WebApi\WebApi-Server\bin\Debug\net5.0\DoctorApi-Server.runtimeconfig.json
